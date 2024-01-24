@@ -1,0 +1,47 @@
+
+.main{
+    background: url("/img/news6.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.bl{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+.logo-img{
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: color-burn;
+}
+.bl{
+    height: inherit;
+    width: inherit;
+    background: rgba(black, black, black, 0.5);
+}
+.footer{
+    background: url("/img/news7.jpg") ;
+    height: 100%;
+    width: 100%;
+
+}
+.card-con{
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+.card-img{
+    border-radius: 10px;
+    position: relative;
+
+}
+.c-card-title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.top-nav-collapse{
+    background-color: black;
+    padding: 10px;
+}
