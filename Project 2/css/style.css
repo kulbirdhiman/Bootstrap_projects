@@ -1,0 +1,49 @@
+.btn-p{
+    margin-right: 150px;
+     margin-left: 10px;
+}
+.left{
+    margin-left: 200px;
+}
+.main{
+    background: url("/img/bg-image.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.top-nav-collapse{
+    padding: 20px;
+    background-color: black;
+}
+.nav-hi{
+    height: 80px;
+}
+.main-wrap{
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0,0.5 );
+}
+.mt-8{
+    margin-top: 200px;
+}
+.img-style{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.h-margin{
+    margin-top: 150px;
+    margin-left: 0px;
+}
+.card-sh{
+    box-shadow: 0 0 10px black;
+}
+.footer{
+    background: url("/img/footer-image.jpg") center no-repeat;
+    background-size: cover;
+}
+.footer-wraper{
+    background-color: rgba(0, 0, 0,0.5 );
+}
+.top-nav-collapse{
+    background-color: blue;
+}
