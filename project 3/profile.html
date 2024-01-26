@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0 ms-lg-5" href="#">
+                    <h2 class="h4">Ui brains</h2>
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cat.html">Task</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cat.html">Catgeroy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="emp.html">Employes</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Icon -->
+
+
+                <!-- Notifications -->
+                <div class="dropdown">
+                    <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-sign-in"></i>
+                        <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item" href="#">Some news</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Another news</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Avatar -->
+                <div class="dropdown mr-4">
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                        id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+                            alt="Black and White Portrait of a Man" loading="lazy" />
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Right elements -->
+        </div>
+
+    </nav>
+    <!-- Dashboard -->
+    <div class="bg-danger p-1 ">
+        <div class="container d-flex  align-content-center">
+            <i class="fa fa- fa-user 3x m-1"></i>
+            <h1 class="h2">profile</h1>
+        </div>
+    </div>
+   
+    <!-- bottun serction -->
+    <div class="bg-grey p-2 d-flex text-center">
+        <div class="container">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-black btn-pad rounded-pill" data-mdb-toggle="modal"
+                data-mdb-target="#Task">
+                Add task
+            </button>
+            <button type="button" class="btn btn-outline-black btn-pad rounded-pill" data-mdb-toggle="modal"
+                data-mdb-target="#cat">
+                Add Catgeroy
+            </button>
+            <button type="button" class="btn btn-outline-black btn-pad rounded-pill" data-mdb-toggle="modal"
+                data-mdb-target="#emp">
+                Add Employes
+            </button>
+        </div>
+    </div>
+    <!-- About -->
+    <div class="container margin-con">
+
+        <div class="row">
+            <div class="col-md-8 p-0">
+                <div class="card card-center">
+                    <div class="card-header bg-dark">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="card-body bg-grey">
+                        <h2 class="p-3 bg-light rounded">Karan Dhiman</h2>
+                        <p class="bg-light p-3 rounded">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam voluptatem assumenda, ea fugit quasi corporis non, eius accusantium, unde aut asperiores perferendis placeat consequatur? Placeat quia quo ipsam provident? Eligendi.</p>
+                        <p class="bg-light p-3 rounded">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse facilis tempora culpa placeat expedita odit at quis magni eaque accusantium ipsum, accusamus earum illum commodi id qui provident praesentium? Dolorem.
+                        </p>
+                        <h2 class="bg-success p-3 rounded">Thanks for visting</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-5 bg-dark text-white ms-0">
+                    <div class="card-header">
+                        <h2>karan Dhiman</h2>
+                    </div>
+                    <div class="card-body bg-grey text-center">
+                        <img src="/img/karan.jpg" alt="" class="card-img-logo">
+                        <button class="btn btn-outline-black m-4">Edit profile</button>
+                        <button class="btn btn-outline-black ">Delte profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer bg-dark text-white p-2 text-center">
+        <h2>Copyright ©2020,UiBrains.com</h2>
+        <p>All Rights Reserved</p>
+        <h4>Developed and Maintained by
+            <a href="" class="text-warning">karan Dhiman</a>
+        </h4>
+    </div>
+</body>
+
+</html>

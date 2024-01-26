@@ -1,0 +1,46 @@
+.bg-grey{
+    background-color: rgb(219, 218, 218);
+}
+.btn-pad{
+    padding: 10px 120px;
+    box-shadow: 0 0 4px black;
+    margin-right: 30px;
+}
+.sh{
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+.width-set{
+    width: 450px;
+    padding: 7px;
+}
+.mr-4{
+    margin-right: 80px;
+}
+.border{
+    border: 10px soild black;
+}
+.card-width{
+    width: 400px;
+    margin: auto
+    ;
+}
+.wid{
+    width: 700px;
+    margin:  auto;
+    padding-bottom:10px ;
+}
+.card-center{
+    margin: 20px 80px;
+}
+.card-img-logo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+   
+    
+    
+}
+.margin-con{
+    margin-right: 0px;
+}
